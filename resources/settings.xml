@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Settings">
+        <setting id="base_url" type="text" label="Base URL" default="https://rezka.fi"/>
+        <setting id="email" type="text" label="Email" default=""/>
+        <setting id="password" type="text" label="Password" option="hidden" default=""/>
+        <setting id="show_country" type="bool" label="Показывать страну в списке" default="false"/>
+        <setting id="show_genre" type="bool" label="Показывать жанр в списке" default="false"/>
+        <setting id="default_quality" type="enum" label="Качество по умолчанию" values="Спрашивать каждый раз|360p|480p|720p|1080p|1080p Ultra|2K|4K" default="0"/>
+    </category>
+</settings>

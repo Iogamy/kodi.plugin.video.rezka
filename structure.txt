@@ -1,0 +1,10 @@
+plugin.video.rezka/
+├── addon.xml
+├── default.py
+└── resources/
+    ├── settings.xml
+    └── lib/
+        ├── rezka_api.py
+        ├── parser.py
+        ├── parser_page.py
+        └── cache_manager.py
